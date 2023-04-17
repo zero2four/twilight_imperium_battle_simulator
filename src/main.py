@@ -4,7 +4,7 @@ from ship import Ship, Fleet
 
 
 # List of method names as strings
-attaker_list = [ 'dreadnauht']
+attaker_list = [ 'dreadnauht', 'fighter']
 attaker_fleet = Fleet(attaker_list)
 
 defender_list = ['destroyer', 'destroyer']

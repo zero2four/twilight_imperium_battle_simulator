@@ -101,6 +101,16 @@ class Ship:
         return Ship(self)
 
 
+    def fighter(self):
+        self.ship_type = "fighter"
+        self.rank = 9
+        self.attacks = 1
+        self.hit_on = 9
+        self.sustain_damage = False
+ 
+        return Ship(self)
+
+
     def roll_for_hit(self):
         """
         Roll for a hit based on the ship's hit probability.
