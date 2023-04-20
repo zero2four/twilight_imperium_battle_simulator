@@ -40,15 +40,20 @@ Your virtual environment is not synced with the source code, and remain on your 
 
 on a windows computer you can active you virtual enviroment by using the following promt:
 concole'''
-./env/Script/active
+./env/Script/activate
 '''
 
 Now you are ready to play :)
 
 
-
-Currently you run the program by the following prompt:
-'''console
-python src/main.py
+Start the GUI with the command: 
+concole'''
+config
 '''
 
+
+
+push to github
+
+git remote add tibs https://github.com/zero2four/twilight_imperium_battle_simulator.git
+git push tibs
